@@ -1,0 +1,351 @@
+Time,Trial,Event,Player.Color,Position.X,Position.Y,Planet.Id,WhiteHole.Interaction.BluePlayer,WhiteHole.Interaction.RedPlayer,Planet.Interaction.BluePlayer,Planet.Interaction.RedPlayer,Asteroid.Interaction.BluePlayer,Asteroid.Interaction.RedPlayer
+2020-03-11 10:51:55.679900,6,Start,,,,,0,0,0,0,0,0
+2020-03-11 10:52:00.709200,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:52:01.642200,6,WhiteHole.SinglePlayer.Touch,Red Player,37.0,15.0,,1,1,0,0,0,0
+2020-03-11 10:52:01.976200,6,WhiteHole.SinglePlayer.Exit,Red Player,37.0,15.0,,1,1,0,0,0,0
+2020-03-11 10:52:01.986200,6,,,,,,1,0,0,0,0,0
+2020-03-11 10:52:02.058200,6,WhiteHole.SinglePlayer.Touch,Red Player,37.0,15.0,,1,1,0,0,0,0
+2020-03-11 10:52:02.744300,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 10:52:02.754300,6,,,,,,0,1,0,0,0,0
+2020-03-11 10:52:04.925400,6,WhiteHole.SinglePlayer.Exit,Red Player,37.0,15.0,,0,1,0,0,0,0
+2020-03-11 10:52:04.935400,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:52:05.409400,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 10:52:06.142500,6,WhiteHole.SinglePlayer.Exit,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 10:52:06.152500,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:52:06.709500,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:52:09.360700,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:52:09.370700,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:52:12.144800,6,WhiteHole.SinglePlayer.Touch,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:52:14.142900,6,WhiteHole.SinglePlayer.Exit,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:52:14.152900,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:52:15.643000,6,WhiteHole.SinglePlayer.Touch,Blue Player,76.0,40.0,,1,0,0,0,0,0
+2020-03-11 10:52:17.844100,6,WhiteHole.SinglePlayer.Exit,Blue Player,76.0,40.0,,1,0,0,0,0,0
+2020-03-11 10:52:17.854100,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:52:18.576200,6,WhiteHole.SinglePlayer.Touch,Blue Player,76.0,40.0,,1,0,0,0,0,0
+2020-03-11 10:52:21.310300,6,WhiteHole.SinglePlayer.Exit,Blue Player,76.0,40.0,,1,0,0,0,0,0
+2020-03-11 10:52:21.320300,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:52:29.477800,6,WhiteHole.SinglePlayer.Touch,Blue Player,76.0,40.0,,1,0,0,0,0,0
+2020-03-11 10:52:30.511900,6,WhiteHole.SinglePlayer.Exit,Blue Player,76.0,40.0,,1,0,0,0,0,0
+2020-03-11 10:52:30.521900,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:52:31.111900,6,WhiteHole.SinglePlayer.Touch,Blue Player,76.0,40.0,,1,0,0,0,0,0
+2020-03-11 10:52:32.178000,6,WhiteHole.SinglePlayer.Exit,Blue Player,76.0,40.0,,1,0,0,0,0,0
+2020-03-11 10:52:32.188000,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:52:34.561100,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:52:34.811100,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:52:34.821100,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:52:41.478500,6,WhiteHole.SinglePlayer.Touch,Red Player,76.0,40.0,,0,1,0,0,0,0
+2020-03-11 10:52:43.461600,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,15.0,,1,1,0,0,0,0
+2020-03-11 10:52:44.578700,6,WhiteHole.SinglePlayer.Exit,Blue Player,37.0,15.0,,1,1,0,0,0,0
+2020-03-11 10:52:44.588700,6,,,,,,0,1,0,0,0,0
+2020-03-11 10:52:45.645700,6,WhiteHole.SinglePlayer.Exit,Red Player,76.0,40.0,,0,1,0,0,0,0
+2020-03-11 10:52:45.655700,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:52:46.461800,6,WhiteHole.SinglePlayer.Touch,Red Player,76.0,40.0,,0,1,0,0,0,0
+2020-03-11 10:52:49.969000,6,WhiteHole.SinglePlayer.Trigger,Red Player,76.0,40.0,,0,1,0,0,0,0
+2020-03-11 10:52:49.979000,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:52:52.259100,6,Planet.Creation,Blue Player,74.0,46.0,5700.0,0,0,0,0,0,0
+2020-03-11 10:53:21.880800,6,WhiteHole.SinglePlayer.Touch,Red Player,37.0,15.0,,0,1,0,0,0,0
+2020-03-11 10:53:23.397900,6,WhiteHole.SinglePlayer.Exit,Red Player,37.0,15.0,,0,1,0,0,0,0
+2020-03-11 10:53:23.407900,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:53:25.231000,6,WhiteHole.SinglePlayer.Touch,Red Player,37.0,15.0,,0,1,0,0,0,0
+2020-03-11 10:53:25.382000,6,WhiteHole.SinglePlayer.Exit,Red Player,37.0,15.0,,0,1,0,0,0,0
+2020-03-11 10:53:25.392000,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:53:26.131000,6,WhiteHole.SinglePlayer.Touch,Red Player,37.0,15.0,,0,1,0,0,0,0
+2020-03-11 10:53:26.598100,6,WhiteHole.SinglePlayer.Touch,Blue Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 10:53:27.464100,6,WhiteHole.SinglePlayer.Exit,Red Player,37.0,15.0,,1,1,0,0,0,0
+2020-03-11 10:53:27.474100,6,,,,,,1,0,0,0,0,0
+2020-03-11 10:53:27.582100,6,WhiteHole.SinglePlayer.Exit,Blue Player,16.0,33.0,,1,0,0,0,0,0
+2020-03-11 10:53:27.592100,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:53:27.965100,6,WhiteHole.SinglePlayer.Touch,Blue Player,16.0,33.0,,1,0,0,0,0,0
+2020-03-11 10:53:29.131200,6,WhiteHole.SinglePlayer.Exit,Blue Player,16.0,33.0,,1,0,0,0,0,0
+2020-03-11 10:53:29.141200,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:53:30.115300,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:53:32.781400,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:53:32.791400,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:53:49.050400,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:53:49.966400,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:53:49.976400,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:53:50.950500,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:53:51.866500,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:53:51.876500,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:53:52.500600,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:53:54.866700,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:53:54.876700,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:53:55.716700,6,WhiteHole.SinglePlayer.Touch,Red Player,37.0,15.0,,0,1,0,0,0,0
+2020-03-11 10:53:56.666800,6,WhiteHole.SinglePlayer.Exit,Red Player,37.0,15.0,,0,1,0,0,0,0
+2020-03-11 10:53:56.676800,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:54:06.101300,6,WhiteHole.SinglePlayer.Touch,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:54:09.184500,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 10:54:09.551500,6,WhiteHole.SinglePlayer.Exit,Blue Player,59.0,77.0,,1,1,0,0,0,0
+2020-03-11 10:54:09.561500,6,,,,,,0,1,0,0,0,0
+2020-03-11 10:54:10.001600,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:54:10.011600,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:54:30.836700,6,WhiteHole.SinglePlayer.Touch,Blue Player,16.0,33.0,,1,0,0,0,0,0
+2020-03-11 10:54:33.569900,6,WhiteHole.SinglePlayer.Exit,Blue Player,16.0,33.0,,1,0,0,0,0,0
+2020-03-11 10:54:33.579900,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:54:33.903900,6,WhiteHole.SinglePlayer.Touch,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:54:34.903000,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 10:54:35.036000,6,WhiteHole.SinglePlayer.Exit,Red Player,59.0,77.0,,1,1,0,0,0,0
+2020-03-11 10:54:35.046000,6,,,,,,1,0,0,0,0,0
+2020-03-11 10:54:38.186200,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:54:38.196200,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:54:45.070600,6,WhiteHole.SinglePlayer.Touch,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:54:47.470700,6,WhiteHole.SinglePlayer.Exit,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:54:47.480700,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:54:50.903900,6,WhiteHole.SinglePlayer.Touch,Red Player,16.0,33.0,,0,1,0,0,0,0
+2020-03-11 10:54:51.904000,6,WhiteHole.SinglePlayer.Exit,Red Player,16.0,33.0,,0,1,0,0,0,0
+2020-03-11 10:54:51.914000,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:54:53.487000,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:54:53.737100,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:54:53.747100,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:55:12.723100,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 10:55:14.072200,6,WhiteHole.SinglePlayer.Exit,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 10:55:14.082200,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:55:14.990300,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 10:55:15.105300,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 10:55:15.689300,6,WhiteHole.SinglePlayer.Exit,Blue Player,37.0,15.0,,1,1,0,0,0,0
+2020-03-11 10:55:15.699300,6,,,,,,0,1,0,0,0,0
+2020-03-11 10:55:16.306300,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,15.0,,1,1,0,0,0,0
+2020-03-11 10:55:16.723400,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 10:55:16.733400,6,,,,,,1,0,0,0,0,0
+2020-03-11 10:55:17.006400,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 10:55:17.239400,6,WhiteHole.SinglePlayer.Exit,Blue Player,37.0,15.0,,1,1,0,0,0,0
+2020-03-11 10:55:17.249400,6,,,,,,0,1,0,0,0,0
+2020-03-11 10:55:19.006500,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:55:19.016500,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:55:19.240500,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:55:19.289500,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:55:19.299500,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:55:27.374000,6,WhiteHole.SinglePlayer.Touch,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:55:27.957000,6,WhiteHole.SinglePlayer.Exit,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:55:27.967000,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:55:33.357300,6,WhiteHole.SinglePlayer.Touch,Blue Player,16.0,33.0,,1,0,0,0,0,0
+2020-03-11 10:55:33.640300,6,WhiteHole.SinglePlayer.Exit,Blue Player,16.0,33.0,,1,0,0,0,0,0
+2020-03-11 10:55:33.650300,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:55:43.557900,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:55:44.190900,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:55:44.200900,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:55:44.591000,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:55:47.591100,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:55:47.601100,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:56:14.484700,6,Planet.SinglePlayer.Connection,Red Player,33.0,68.0,5700.0,0,0,0,1,0,0
+2020-03-11 10:56:18.683900,6,Planet.SinglePlayer.Exit,Red Player,36.0,65.0,5700.0,0,0,0,1,0,0
+2020-03-11 10:56:18.693900,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:56:24.044200,6,WhiteHole.SinglePlayer.Touch,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:56:24.361200,6,WhiteHole.SinglePlayer.Touch,Blue Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 10:56:24.877300,6,WhiteHole.SinglePlayer.Exit,Red Player,59.0,77.0,,1,1,0,0,0,0
+2020-03-11 10:56:24.887300,6,,,,,,1,0,0,0,0,0
+2020-03-11 10:56:27.867400,6,WhiteHole.SinglePlayer.Trigger,Blue Player,16.0,33.0,,1,0,0,0,0,0
+2020-03-11 10:56:27.877400,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:56:36.261900,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:56:37.011000,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:56:37.021000,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:56:37.278000,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:56:37.612000,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:56:37.622000,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:56:41.929200,6,WhiteHole.SinglePlayer.Touch,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:56:43.162300,6,WhiteHole.SinglePlayer.Exit,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:56:43.172300,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:56:44.378400,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:56:44.945400,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:56:44.955400,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:56:52.529800,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:56:53.629900,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:56:53.639900,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:56:53.812900,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:56:54.012900,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:56:54.022900,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:56:58.379200,6,WhiteHole.SinglePlayer.Touch,Blue Player,62.0,24.0,,1,0,0,0,0,0
+2020-03-11 10:57:01.780400,6,WhiteHole.SinglePlayer.Exit,Blue Player,62.0,24.0,,1,0,0,0,0,0
+2020-03-11 10:57:01.790400,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:05.064600,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 10:57:05.113600,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 10:57:06.213600,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 10:57:06.223600,6,,,,,,1,0,0,0,0,0
+2020-03-11 10:57:07.046700,6,WhiteHole.SinglePlayer.Exit,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 10:57:07.056700,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:08.030700,6,WhiteHole.SinglePlayer.Touch,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:57:08.513800,6,WhiteHole.SinglePlayer.Exit,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:57:08.523800,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:12.898000,6,WhiteHole.SinglePlayer.Touch,Red Player,62.0,24.0,,0,1,0,0,0,0
+2020-03-11 10:57:13.014000,6,WhiteHole.SinglePlayer.Exit,Red Player,62.0,24.0,,0,1,0,0,0,0
+2020-03-11 10:57:13.024000,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:15.648200,6,WhiteHole.SinglePlayer.Touch,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:57:17.498300,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 10:57:19.866400,6,WhiteHole.SinglePlayer.Exit,Blue Player,59.0,77.0,,1,1,0,0,0,0
+2020-03-11 10:57:19.876400,6,,,,,,0,1,0,0,0,0
+2020-03-11 10:57:20.131400,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:57:20.141400,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:21.348500,6,WhiteHole.SinglePlayer.Touch,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:57:21.831500,6,WhiteHole.SinglePlayer.Exit,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:57:21.841500,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:25.632700,6,WhiteHole.SinglePlayer.Touch,Blue Player,62.0,24.0,,1,0,0,0,0,0
+2020-03-11 10:57:27.266800,6,WhiteHole.SinglePlayer.Exit,Blue Player,62.0,24.0,,1,0,0,0,0,0
+2020-03-11 10:57:27.276800,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:30.182000,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:57:31.066100,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:57:31.076100,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:31.600100,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:57:31.932100,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:57:31.942100,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:32.134100,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:57:32.233100,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:57:32.243100,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:33.934200,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:57:34.349200,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:57:34.359200,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:37.133400,6,WhiteHole.SinglePlayer.Touch,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:57:38.183500,6,WhiteHole.SinglePlayer.Exit,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:57:38.193500,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:40.400600,6,WhiteHole.SinglePlayer.Touch,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:57:42.249700,6,WhiteHole.SinglePlayer.Exit,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:57:42.259700,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:57:47.284000,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 10:57:50.772200,6,WhiteHole.SinglePlayer.Trigger,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 10:57:50.782200,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:04.969000,6,WhiteHole.SinglePlayer.Touch,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:58:05.301000,6,WhiteHole.SinglePlayer.Exit,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:58:05.311000,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:05.886000,6,WhiteHole.SinglePlayer.Touch,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:58:06.952100,6,WhiteHole.SinglePlayer.Exit,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:58:06.962100,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:08.886200,6,WhiteHole.SinglePlayer.Touch,Red Player,62.0,24.0,,0,1,0,0,0,0
+2020-03-11 10:58:10.202300,6,WhiteHole.SinglePlayer.Exit,Red Player,62.0,24.0,,0,1,0,0,0,0
+2020-03-11 10:58:10.212300,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:12.689400,6,Planet.Creation,Red Player,33.0,37.0,6472.0,0,0,0,0,0,0
+2020-03-11 10:58:12.803400,6,WhiteHole.SinglePlayer.Touch,Blue Player,62.0,24.0,,1,0,0,0,0,0
+2020-03-11 10:58:13.719500,6,WhiteHole.SinglePlayer.Touch,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 10:58:14.618500,6,WhiteHole.SinglePlayer.Exit,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 10:58:14.628500,6,,,,,,1,0,0,0,0,0
+2020-03-11 10:58:17.239700,6,WhiteHole.SinglePlayer.Trigger,Blue Player,62.0,24.0,,1,0,0,0,0,0
+2020-03-11 10:58:17.249700,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:19.119800,6,WhiteHole.SinglePlayer.Touch,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:58:19.652800,6,WhiteHole.SinglePlayer.Exit,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 10:58:19.662800,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:25.020100,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:58:25.570200,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:58:25.580200,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:28.470300,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:58:28.603300,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:58:28.613300,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:28.670300,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:58:28.887400,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:58:28.897400,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:31.770500,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:58:32.953600,6,WhiteHole.SinglePlayer.Exit,Red Player,31.0,56.0,,0,1,0,0,0,0
+2020-03-11 10:58:32.963600,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:41.988100,6,WhiteHole.SinglePlayer.Touch,Red Player,74.0,61.0,,0,1,0,0,0,0
+2020-03-11 10:58:43.171200,6,WhiteHole.SinglePlayer.Exit,Red Player,74.0,61.0,,0,1,0,0,0,0
+2020-03-11 10:58:43.181200,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:44.454300,6,WhiteHole.SinglePlayer.Touch,Blue Player,31.0,56.0,,1,0,0,0,0,0
+2020-03-11 10:58:45.004300,6,WhiteHole.SinglePlayer.Touch,Red Player,74.0,61.0,,1,1,0,0,0,0
+2020-03-11 10:58:48.088500,6,WhiteHole.SinglePlayer.Exit,Blue Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 10:58:48.098500,6,,,,,,0,1,0,0,0,0
+2020-03-11 10:58:48.509500,6,WhiteHole.SinglePlayer.Trigger,Red Player,74.0,61.0,,0,1,0,0,0,0
+2020-03-11 10:58:48.519500,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:58:50.122600,6,Planet.Creation,Blue Player,53.0,73.0,6954.0,0,0,0,0,0,0
+2020-03-11 10:59:01.156200,6,WhiteHole.SinglePlayer.Touch,Red Player,16.0,33.0,,0,1,0,0,0,0
+2020-03-11 10:59:04.645400,6,WhiteHole.SinglePlayer.Trigger,Red Player,16.0,33.0,,0,1,0,0,0,0
+2020-03-11 10:59:04.655400,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:59:06.423500,6,Planet.Creation,Blue Player,64.0,17.0,7328.0,0,0,0,0,0,0
+2020-03-11 10:59:08.446600,6,Planet.SinglePlayer.Connection,Red Player,38.0,31.0,5700.0,0,0,0,1,0,0
+2020-03-11 10:59:10.544700,6,Planet.SinglePlayer.Connection,Blue Player,55.0,18.0,7328.0,0,0,1,1,0,0
+2020-03-11 10:59:11.177800,6,Planet.SinglePlayer.Exit,Red Player,32.0,36.0,5700.0,0,0,1,1,0,0
+2020-03-11 10:59:11.187800,6,,,,,,0,0,1,0,0,0
+2020-03-11 10:59:12.623900,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,0,1,1,0,0,0
+2020-03-11 10:59:16.129100,6,WhiteHole.SinglePlayer.Trigger,Red Player,31.0,56.0,,0,1,1,0,0,0
+2020-03-11 10:59:16.139100,6,,,,,,0,0,1,0,0,0
+2020-03-11 10:59:16.763100,6,Planet.SinglePlayer.Exit,Blue Player,64.0,17.0,7328.0,0,0,1,0,0,0
+2020-03-11 10:59:16.773100,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:59:19.260200,6,Planet.Creation,Blue Player,33.0,53.0,7686.0,0,0,0,0,0,0
+2020-03-11 10:59:26.507700,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,76.0,,1,0,0,0,0,0
+2020-03-11 10:59:26.707700,6,WhiteHole.SinglePlayer.Exit,Blue Player,37.0,76.0,,1,0,0,0,0,0
+2020-03-11 10:59:26.717700,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:59:27.241700,6,WhiteHole.SinglePlayer.Touch,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 10:59:28.712800,6,Planet.SinglePlayer.Connection,Blue Player,57.0,72.0,6954.0,1,0,1,0,0,0
+2020-03-11 10:59:30.745900,6,WhiteHole.SinglePlayer.Trigger,Blue Player,59.0,77.0,,1,0,1,0,0,0
+2020-03-11 10:59:30.755900,6,,,,,,0,0,1,0,0,0
+2020-03-11 10:59:43.541600,6,WhiteHole.SinglePlayer.Touch,Red Player,37.0,76.0,,0,1,1,0,0,0
+2020-03-11 10:59:44.012700,6,Planet.Creation,Red Player,41.0,78.0,8070.0,0,1,1,0,0,0
+2020-03-11 10:59:44.975700,6,WhiteHole.SinglePlayer.Exit,Red Player,37.0,76.0,,0,1,1,0,0,0
+2020-03-11 10:59:44.985700,6,,,,,,0,0,1,0,0,0
+2020-03-11 10:59:45.164700,6,Planet.SinglePlayer.Exit,Blue Player,53.0,73.0,6954.0,0,0,1,0,0,0
+2020-03-11 10:59:45.174700,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:59:48.725900,6,WhiteHole.SinglePlayer.Touch,Red Player,76.0,40.0,,0,1,0,0,0,0
+2020-03-11 10:59:52.215100,6,WhiteHole.SinglePlayer.Trigger,Red Player,76.0,40.0,,0,1,0,0,0,0
+2020-03-11 10:59:52.225100,6,,,,,,0,0,0,0,0,0
+2020-03-11 10:59:58.443500,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,76.0,,1,0,0,0,0,0
+2020-03-11 10:59:59.110500,6,WhiteHole.SinglePlayer.Touch,Red Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 11:00:02.597700,6,WhiteHole.SinglePlayer.Trigger,Red Player,31.0,56.0,,1,1,0,0,0,0
+2020-03-11 11:00:02.607700,6,,,,,,1,0,0,0,0,0
+2020-03-11 11:00:02.616700,6,WhiteHole.SinglePlayer.Trigger,Blue Player,37.0,76.0,,1,0,0,0,0,0
+2020-03-11 11:00:02.626700,6,,,,,,0,0,0,0,0,0
+2020-03-11 11:00:02.648700,6,Star.Creation,,34.0,66.0,,0,0,0,0,0,0
+2020-03-11 11:00:02.676700,6,Planet.Multiplayer.AddedToOrbit,,41.0,78.0,8070.0,0,0,0,0,0,0
+2020-03-11 11:00:15.945500,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 11:00:17.944600,6,WhiteHole.SinglePlayer.Touch,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:00:21.433800,6,WhiteHole.SinglePlayer.Trigger,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:00:21.443800,6,,,,,,1,0,0,0,0,0
+2020-03-11 11:00:21.451800,6,WhiteHole.SinglePlayer.Trigger,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 11:00:21.461800,6,,,,,,0,0,0,0,0,0
+2020-03-11 11:00:21.462800,6,Star.Creation,,27.0,24.0,,0,0,0,0,0,0
+2020-03-11 11:00:34.231500,6,WhiteHole.SinglePlayer.Touch,Blue Player,59.0,77.0,,1,0,0,0,0,0
+2020-03-11 11:00:35.129600,6,WhiteHole.SinglePlayer.Touch,Red Player,74.0,61.0,,1,1,0,0,0,0
+2020-03-11 11:00:35.629600,6,WhiteHole.SinglePlayer.Exit,Blue Player,59.0,77.0,,1,1,0,0,0,0
+2020-03-11 11:00:35.639600,6,,,,,,0,1,0,0,0,0
+2020-03-11 11:00:36.497700,6,WhiteHole.SinglePlayer.Touch,Blue Player,59.0,77.0,,1,1,0,0,0,0
+2020-03-11 11:00:39.984900,6,WhiteHole.SinglePlayer.Trigger,Blue Player,59.0,77.0,,1,1,0,0,0,0
+2020-03-11 11:00:39.994900,6,,,,,,0,1,0,0,0,0
+2020-03-11 11:00:40.017900,6,WhiteHole.SinglePlayer.Trigger,Red Player,74.0,61.0,,0,1,0,0,0,0
+2020-03-11 11:00:40.027900,6,,,,,,0,0,0,0,0,0
+2020-03-11 11:00:40.030900,6,Star.Creation,,66.0,69.0,,0,0,0,0,0,0
+2020-03-11 11:00:40.046900,6,Planet.Multiplayer.AddedToOrbit,,53.0,73.0,6954.0,0,0,0,0,0,0
+2020-03-11 11:00:50.947500,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 11:00:52.515600,6,WhiteHole.SinglePlayer.Touch,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:00:52.963600,6,WhiteHole.SinglePlayer.Exit,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:00:52.973600,6,,,,,,1,0,0,0,0,0
+2020-03-11 11:00:53.315600,6,WhiteHole.SinglePlayer.Touch,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:00:56.819800,6,WhiteHole.SinglePlayer.Trigger,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:00:56.829800,6,,,,,,1,0,0,0,0,0
+2020-03-11 11:00:56.835800,6,WhiteHole.SinglePlayer.Trigger,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 11:00:56.845800,6,,,,,,0,0,0,0,0,0
+2020-03-11 11:00:56.848800,6,Star.Creation,,27.0,24.0,,0,0,0,0,0,0
+2020-03-11 11:01:08.566500,6,WhiteHole.SinglePlayer.Touch,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 11:01:08.699500,6,WhiteHole.SinglePlayer.Touch,Blue Player,74.0,61.0,,1,1,0,0,0,0
+2020-03-11 11:01:12.187700,6,WhiteHole.SinglePlayer.Trigger,Blue Player,74.0,61.0,,1,1,0,0,0,0
+2020-03-11 11:01:12.197700,6,,,,,,0,1,0,0,0,0
+2020-03-11 11:01:12.221700,6,WhiteHole.SinglePlayer.Trigger,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 11:01:12.231700,6,,,,,,0,0,0,0,0,0
+2020-03-11 11:01:12.233700,6,Star.Creation,,66.0,69.0,,0,0,0,0,0,0
+2020-03-11 11:01:20.583200,6,WhiteHole.SinglePlayer.Touch,Red Player,16.0,33.0,,0,1,0,0,0,0
+2020-03-11 11:01:20.700200,6,WhiteHole.SinglePlayer.Exit,Red Player,16.0,33.0,,0,1,0,0,0,0
+2020-03-11 11:01:20.710200,6,,,,,,0,0,0,0,0,0
+2020-03-11 11:01:20.717200,6,WhiteHole.SinglePlayer.Touch,Red Player,16.0,33.0,,0,1,0,0,0,0
+2020-03-11 11:01:21.617200,6,WhiteHole.SinglePlayer.Touch,Blue Player,37.0,15.0,,1,1,0,0,0,0
+2020-03-11 11:01:22.550300,6,WhiteHole.SinglePlayer.Exit,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:01:22.560300,6,,,,,,1,0,0,0,0,0
+2020-03-11 11:01:22.883300,6,WhiteHole.SinglePlayer.Touch,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:01:23.383300,6,WhiteHole.SinglePlayer.Exit,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:01:23.393300,6,,,,,,1,0,0,0,0,0
+2020-03-11 11:01:24.667400,6,WhiteHole.SinglePlayer.Touch,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:01:25.100400,6,WhiteHole.SinglePlayer.Exit,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:01:25.110400,6,,,,,,1,0,0,0,0,0
+2020-03-11 11:01:25.817500,6,WhiteHole.SinglePlayer.Touch,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:01:29.307700,6,WhiteHole.SinglePlayer.Trigger,Red Player,16.0,33.0,,1,1,0,0,0,0
+2020-03-11 11:01:29.317700,6,,,,,,1,0,0,0,0,0
+2020-03-11 11:01:29.323700,6,WhiteHole.SinglePlayer.Trigger,Blue Player,37.0,15.0,,1,0,0,0,0,0
+2020-03-11 11:01:29.333700,6,,,,,,0,0,0,0,0,0
+2020-03-11 11:01:29.335700,6,Star.Creation,,27.0,24.0,,0,0,0,0,0,0
+2020-03-11 11:01:32.984900,6,WhiteHole.SinglePlayer.Touch,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 11:01:36.473100,6,WhiteHole.SinglePlayer.Trigger,Red Player,59.0,77.0,,0,1,0,0,0,0
+2020-03-11 11:01:36.483100,6,,,,,,0,0,0,0,0,0
+2020-03-11 11:01:39.986300,6,Planet.Creation,Blue Player,61.0,77.0,12812.0,0,0,0,0,0,0
+2020-03-11 11:01:41.669400,6,Planet.Multiplayer.AddedToOrbit,,65.0,70.0,12812.0,0,0,0,0,0,0
+2020-03-11 11:01:41.672400,6,Planet.Multiplayer.AddedToOrbit,,65.0,70.0,12812.0,0,0,0,0,0,0
+2020-03-11 11:01:42.518400,6,WhiteHole.SinglePlayer.Touch,Red Player,76.0,40.0,,0,1,0,0,0,0
+2020-03-11 11:01:46.007600,6,WhiteHole.SinglePlayer.Trigger,Red Player,76.0,40.0,,0,1,0,0,0,0
+2020-03-11 11:01:46.017600,6,,,,,,0,0,0,0,0,0
+2020-03-11 11:02:03.559600,6,Asteroid.SinglePlayer.Connection,Red Player,62.0,43.0,,0,0,0,0,0,1
+2020-03-11 11:02:06.738800,6,Planet.Creation,Blue Player,60.0,45.0,13178.0,0,0,0,0,0,1
+2020-03-11 11:02:06.808800,6,Asteroid.SinglePlayer.Exit,Red Player,60.0,46.0,,0,0,0,0,0,1
+2020-03-11 11:02:06.818800,6,,,,,,0,0,0,0,0,0
+2020-03-11 11:02:07.906900,6,End,,,,,0,0,0,0,0,0
