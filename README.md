@@ -1,2 +1,2 @@
-# Clean lab proyect
- Code needed for Interactive Systems
+# Fisherman
+ Repository for the final project of the interactive systems course UPF.
