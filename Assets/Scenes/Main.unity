@@ -238,14 +238,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320019875}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.2, y: 0, z: 21.7}
+  m_LocalRotation: {x: -0.025085635, y: -0.007582119, z: 0.005850153, w: 0.9996395}
+  m_LocalPosition: {x: 4.2092237, y: -0.052317858, z: 21.630495}
   m_LocalScale: {x: 1.6923207, y: 1.6923207, z: 1.6923207}
   m_Children:
   - {fileID: 994844176}
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -2.87, y: -0.886, z: 0.693}
 --- !u!1 &346575718
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,7 +605,6 @@ GameObject:
   - component: {fileID: 1396701096}
   - component: {fileID: 1396701095}
   - component: {fileID: 1396701099}
-  - component: {fileID: 1396701098}
   m_Layer: 0
   m_Name: Net Line Renderer
   m_TagString: Untagged
@@ -627,7 +626,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   red_boat: {fileID: 8764403747830414779}
   blue_boat: {fileID: 8764403746705040558}
-  dragForce: 0.3
+  slow_down_distance: 30
+  max_speed: 8
+  max_stretch: 50
+  changeLineWidthFrom: 0.8
 --- !u!120 &1396701096
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -680,7 +682,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.09523773
+        value: 0.060142517
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -688,8 +690,8 @@ LineRenderer:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.47089934
-        value: 0.33333397
+        time: 0.5007913
+        value: 0.23684502
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -697,8 +699,8 @@ LineRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.98553467
-        value: 0.10713959
+        time: 1
+        value: 0.054504395
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -759,30 +761,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!233 &1396701098
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1396701094}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 1
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0, y: 0}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: 359
 --- !u!50 &1396701099
 Rigidbody2D:
   serializedVersion: 4
