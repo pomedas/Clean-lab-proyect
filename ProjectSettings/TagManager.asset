@@ -21,6 +21,9 @@ TagManager:
   - CoreStarElement
   - Reward
   - objectiveTriangle
+  - Island
+  - Fish
+  - Trash
   layers:
   - Default
   - TransparentFX
