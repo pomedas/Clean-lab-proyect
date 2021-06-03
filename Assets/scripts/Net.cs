@@ -60,7 +60,7 @@ public class Net : MonoBehaviour
             else
             {
                 // change color based on damage
-                float colorFactor = damage / strength * changeLineWidthFrom;
+                float colorFactor = damage / (float)strength * changeLineWidthFrom;
                 Color lineColor = new Color(1, 1 - colorFactor, 1 - colorFactor, 1);
                 lineRenderer.startColor = lineColor;
                 lineRenderer.endColor = lineColor;
@@ -99,29 +99,26 @@ public class Net : MonoBehaviour
     {
         Debug.Log("Collision with " + collision.gameObject.name);
 
-        if (collision.gameObject.name == "Harbour")
-        {
-            Debug.Log("We're in the Harbour");
-        }
         if (collision.gameObject.tag == "Island")
         { 
             Debug.Log("Crashed into Island");
             Rip();
         }
-        if (collision.gameObject.tag == "Fish")
+        else if (collision.gameObject.tag == "Fish")
         {
             Debug.Log("Collected Fish");
             CollectFish(collision.gameObject);
         }
-        if (collision.gameObject.tag == "Trash")
+        else if (collision.gameObject.tag == "Trash")
         {
-            Debug.Log("Collected Fish");
+            Debug.Log("Collected Trash");
             CollectTrash(collision.gameObject);
         }
     }
 
     void CollectFish(GameObject fish)
     {
+        fish.SetActive(false);
         fishCount++;
         // TODO play sound effect, remove collected gameobject from scene
         // NTH increase "weight" of the net (by making the line thicker in the middle and speed slower
@@ -129,6 +126,7 @@ public class Net : MonoBehaviour
 
     void CollectTrash(GameObject trash)
     {
+        trash.SetActive(false);
         trashCount++;
         damage++;
         // TODO play sound effect, remove collected gameobject from scene
@@ -142,6 +140,7 @@ public class Net : MonoBehaviour
         meshCollider.sharedMesh = null;
         meshCollider.enabled = false;
         lineRenderer.enabled = false;
+        // TODO add sound effect
     }
 
     public void Restore()
