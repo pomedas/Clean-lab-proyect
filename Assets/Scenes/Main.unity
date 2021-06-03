@@ -225,7 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 320019876}
   m_Layer: 0
-  m_Name: Yard
+  m_Name: Harbour
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -239,7 +239,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320019875}
   m_LocalRotation: {x: -0.025085635, y: -0.007582119, z: 0.005850153, w: 0.9996395}
-  m_LocalPosition: {x: 4.2092237, y: -0.052317858, z: 21.630495}
+  m_LocalPosition: {x: 4.2092237, y: 0.42, z: 21.630495}
   m_LocalScale: {x: 1.6923207, y: 1.6923207, z: 1.6923207}
   m_Children:
   - {fileID: 994844176}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 346575723}
   m_Layer: 0
   m_Name: Islands
-  m_TagString: Untagged
+  m_TagString: Island
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -365,11 +365,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 686605943, guid: cd1cb5635f8dbe649adff6525a31cfd3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 746186705940698874, guid: cd1cb5635f8dbe649adff6525a31cfd3,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 746186705940698874, guid: cd1cb5635f8dbe649adff6525a31cfd3,
+        type: 3}
+      propertyPath: m_Name
+      value: Sphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 746186705940698878, guid: cd1cb5635f8dbe649adff6525a31cfd3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 746186707522591664, guid: cd1cb5635f8dbe649adff6525a31cfd3,
         type: 3}
       propertyPath: m_Name
@@ -443,6 +457,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6056536772609992180, guid: cd1cb5635f8dbe649adff6525a31cfd3, type: 3}
     - {fileID: 686605942, guid: cd1cb5635f8dbe649adff6525a31cfd3, type: 3}
+    - {fileID: 686605943, guid: cd1cb5635f8dbe649adff6525a31cfd3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cd1cb5635f8dbe649adff6525a31cfd3, type: 3}
 --- !u!4 &360262303 stripped
 Transform:
@@ -465,7 +480,7 @@ GameObject:
   - component: {fileID: 447557908}
   m_Layer: 0
   m_Name: Islands (1)
-  m_TagString: Untagged
+  m_TagString: Island
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -604,7 +619,7 @@ GameObject:
   - component: {fileID: 1396701097}
   - component: {fileID: 1396701096}
   - component: {fileID: 1396701095}
-  - component: {fileID: 1396701099}
+  - component: {fileID: 1396701098}
   m_Layer: 0
   m_Name: Net Line Renderer
   m_TagString: Untagged
@@ -630,6 +645,10 @@ MonoBehaviour:
   max_speed: 8
   max_stretch: 50
   changeLineWidthFrom: 0.8
+  strength: 10
+  damage: 0
+  fishCount: 0
+  trashCount: 0
 --- !u!120 &1396701096
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -755,33 +774,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396701094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &1396701099
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!64 &1396701098
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396701094}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1441800306 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6137497490245145672, guid: a2aaaa094093a294aade9f5a5ce62bbb,
@@ -893,7 +905,7 @@ GameObject:
   - component: {fileID: 1667145995}
   m_Layer: 0
   m_Name: Islands (2)
-  m_TagString: Untagged
+  m_TagString: Island
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1515,6 +1527,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6137497490245145672, guid: a2aaaa094093a294aade9f5a5ce62bbb,
+        type: 3}
+      propertyPath: m_Name
+      value: Sphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137497490245145676, guid: a2aaaa094093a294aade9f5a5ce62bbb,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 6137497491829922048, guid: a2aaaa094093a294aade9f5a5ce62bbb,
         type: 3}
       propertyPath: m_RootOrder
@@ -1588,6 +1610,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 827287611203479366, guid: a2aaaa094093a294aade9f5a5ce62bbb, type: 3}
     - {fileID: 6878748875590714564, guid: a2aaaa094093a294aade9f5a5ce62bbb, type: 3}
+    - {fileID: 6878748875590714565, guid: a2aaaa094093a294aade9f5a5ce62bbb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a2aaaa094093a294aade9f5a5ce62bbb, type: 3}
 --- !u!4 &8764403746705040558 stripped
 Transform:
