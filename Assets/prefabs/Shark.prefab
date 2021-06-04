@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 803994080991005521}
   - component: {fileID: 6346932177312659368}
   - component: {fileID: 3677732437614575717}
-  - component: {fileID: 3677732437614575716}
+  - component: {fileID: 3924265936858880891}
   m_Layer: 31
   m_Name: Shark
   m_TagString: Untagged
@@ -53,9 +53,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -67,6 +70,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -79,6 +83,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &3677732437614575717
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -92,7 +97,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2
   m_Center: {x: 0, y: 1.5111526, z: -0.6783147}
---- !u!114 &3677732437614575716
+--- !u!114 &3924265936858880891
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,15 +106,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4622948576541377396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fb5effcc1704b94cae9b5eee849171b, type: 3}
+  m_Script: {fileID: 11500000, guid: 7eda6d9921462e642aa9c22d0bca469b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  walkZone: 100
-  camRig: {fileID: 0}
-  debug: 1
-  huntingZone: 85
-  layerFlock:
-    serializedVersion: 2
-    m_Bits: 1073741824
-  sharkMaterial: {fileID: 2100000, guid: 3bfe11c511ffb984da89fea8e2997ab1, type: 2}
+  reach_threshold: 5
+  max_speed: 10
+  rotationSpeed: 3
+  new_target_period: 3
