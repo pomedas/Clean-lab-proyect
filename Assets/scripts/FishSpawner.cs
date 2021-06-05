@@ -46,7 +46,7 @@ public class FishSpawner : MonoBehaviour
         for (int i = 0; i < amount; i++)
         {
             GameObject tmp = Instantiate(go);
-            tmp.gameObject.transform.position = new Vector3(Random.Range(0, 100), 0, Random.Range(0, 100));
+            tmp.gameObject.transform.position = new Vector3(Random.Range(0, 100), -1, Random.Range(0, 100));
             tmp.transform.parent = transform;
         }
 

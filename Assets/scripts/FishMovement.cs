@@ -42,8 +42,7 @@ public class FishMovement : MonoBehaviour
     }
 
     void newRandomPos() {
-        randomTarget = new Vector3(Random.Range(0,100), 0, Random.Range(0,100));
-        randomTarget.y = 0;
+        randomTarget = new Vector3(Random.Range(0,100), -1, Random.Range(0,100));
     }
 
 
