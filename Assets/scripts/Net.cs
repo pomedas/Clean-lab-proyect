@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class Net : MonoBehaviour
@@ -119,6 +120,7 @@ public class Net : MonoBehaviour
     void CollectFish(GameObject fish)
     {
         fish.SetActive(false);
+        Destroy(fish);
         fishCount++;
         // TODO play sound effect, remove collected gameobject from scene
         // NTH increase "weight" of the net (by making the line thicker in the middle and speed slower
@@ -127,6 +129,7 @@ public class Net : MonoBehaviour
     void CollectTrash(GameObject trash)
     {
         trash.SetActive(false);
+        Destroy(trash);
         trashCount++;
         damage++;
         // TODO play sound effect, remove collected gameobject from scene
