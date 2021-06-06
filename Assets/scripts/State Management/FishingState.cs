@@ -5,6 +5,7 @@ public class FishingState : State
 {
     // AudioManager audioManager;
     // FishManager fishManager;
+    public Harbor harbor;
 
     protected override void Awake()
     {
@@ -16,18 +17,21 @@ public class FishingState : State
 
     public override void AfterActivate()
     {
-        // AUDIO start game ambient sound
-        // AUDIO enable boat movement sound
-        // AUDIO start music?
-
+        harbor.OnBoatsInHarbor.AddListener(EndLevel);
         // activate boat follow player
         // update fish/trash population variables ?
         // spawn fishes ?
+
+        // AUDIO start game ambient sound
+        // AUDIO enable boat movement sound
+        // AUDIO start music?
     }
 
     public override void BeforeDeactivate()
     {
+        harbor.OnBoatsInHarbor.RemoveListener(EndLevel);
         // deactivate boat follow player
+
         // AUDIO stop boat sounds
         // AUDIO stop game ambient sounds
         // AUDIO stop game music ?
@@ -35,7 +39,6 @@ public class FishingState : State
 
     public void EndLevel()
     {
-        // TODO call when both ships arrive at harbor
         stateMachine.GoTo<HarborState>();
     }
 }

@@ -98,21 +98,21 @@ public class Net : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Collision with " + collision.gameObject.name);
+        Debug.Log("[ NET ] Collision with " + collision.gameObject.name);
 
         if (collision.gameObject.tag == "Island")
         { 
-            Debug.Log("Crashed into Island");
+            Debug.Log("[ NET ] Crashed into Island");
             Rip();
         }
         else if (collision.gameObject.tag == "Fish")
         {
-            Debug.Log("Collected Fish");
+            Debug.Log("[ NET ] Collected Fish");
             CollectFish(collision.gameObject);
         }
         else if (collision.gameObject.tag == "Trash")
         {
-            Debug.Log("Collected Trash");
+            Debug.Log("[ NET ] Collected Trash");
             CollectTrash(collision.gameObject);
         }
     }
