@@ -5,14 +5,14 @@ public class StartmenuState : State
 {
     // public Canvas startMenuCanvas
     // public Button startButton
-    // AudioManager audioManager;
+    AudioManager audioManager;
     public FollowPointer redBoat;
     public FollowPointer blueBoat;
 
     protected override void Awake()
     {
         base.Awake();
-        // audioManager = FindObjectOfType<AudioManager>();
+        audioManager = FindObjectOfType<AudioManager>();
         // startButton.OnSelect.AddListener(StartGame);
     }
 
@@ -27,8 +27,8 @@ public class StartmenuState : State
         // show start text canvas (credits, explanation)
         // show start button element
 
-        // AUDIO start ambient sound
-        // AUDIO start music?
+        // AUDIO start ambient sounds
+        audioManager.Play(AudioManager.SoundName.MainMusic);
     }
 
     public override void BeforeDeactivate()

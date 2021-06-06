@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class FishingState : State
 {
-    // AudioManager audioManager;
+    AudioManager audioManager;
     // FishManager fishManager;
     public Harbor harbor;
     public FollowPointer redBoat;
@@ -12,6 +12,7 @@ public class FishingState : State
     protected override void Awake()
     {
         base.Awake();
+        audioManager = FindObjectOfType<AudioManager>();
         // TODO ideally count points/fish/trash here 
         // -> the Net can tell FishingState to count, FishManager can get information from State
         // -> or better to have a point counting script (score) and connect that with the net?
@@ -32,7 +33,8 @@ public class FishingState : State
 
         // AUDIO start game ambient sound
         // AUDIO enable boat movement sound
-        // AUDIO start music?
+        audioManager.PlayOnce(AudioManager.SoundName.MainMusic);
+
     }
 
     public override void BeforeDeactivate()
@@ -48,7 +50,8 @@ public class FishingState : State
 
         // AUDIO stop boat sounds
         // AUDIO stop game ambient sounds
-        // AUDIO stop game music ?
+        audioManager.Stop(AudioManager.SoundName.MainMusic);
+
     }
 
     public void EndLevel()

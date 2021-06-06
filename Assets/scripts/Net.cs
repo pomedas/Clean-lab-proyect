@@ -23,6 +23,8 @@ public class Net : MonoBehaviour
     public int fishCount;
     public int trashCount;
 
+    public AudioManager audioManager;
+
     LineRenderer lineRenderer;
     MeshCollider meshCollider;
     Mesh mesh;

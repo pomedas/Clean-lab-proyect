@@ -1325,10 +1325,10 @@ PrefabInstance:
       propertyPath: pointer
       value: 
       objectReference: {fileID: 989180238}
-    - target: {fileID: 6985526195517983299, guid: cc6a53792ad417943bb4faf10df354db,
+    - target: {fileID: 5188851365720421828, guid: cc6a53792ad417943bb4faf10df354db,
         type: 3}
-      propertyPath: m_RootOrder
-      value: 14
+      propertyPath: m_audioClip
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6985526195517983299, guid: cc6a53792ad417943bb4faf10df354db,
         type: 3}
@@ -1347,11 +1347,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6985526195517983299, guid: cc6a53792ad417943bb4faf10df354db,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0012060925
-      objectReference: {fileID: 0}
-    - target: {fileID: 6985526195517983299, guid: cc6a53792ad417943bb4faf10df354db,
-        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1364,6 +1359,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6985526195517983299, guid: cc6a53792ad417943bb4faf10df354db,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0012060925
+      objectReference: {fileID: 0}
+    - target: {fileID: 6985526195517983299, guid: cc6a53792ad417943bb4faf10df354db,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6985526195517983299, guid: cc6a53792ad417943bb4faf10df354db,
         type: 3}
@@ -1396,11 +1401,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4182080688299744783, guid: ce1dfa2c293906d4fb7402b2e13b09a3,
         type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 4182080688299744783, guid: ce1dfa2c293906d4fb7402b2e13b09a3,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: 39.735813
       objectReference: {fileID: 0}
@@ -1416,11 +1416,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4182080688299744783, guid: ce1dfa2c293906d4fb7402b2e13b09a3,
         type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4182080688299744783, guid: ce1dfa2c293906d4fb7402b2e13b09a3,
-        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1433,6 +1428,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4182080688299744783, guid: ce1dfa2c293906d4fb7402b2e13b09a3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4182080688299744783, guid: ce1dfa2c293906d4fb7402b2e13b09a3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 4182080688299744783, guid: ce1dfa2c293906d4fb7402b2e13b09a3,
         type: 3}
@@ -1459,10 +1464,10 @@ PrefabInstance:
       propertyPath: pointer
       value: 
       objectReference: {fileID: 360262303}
-    - target: {fileID: 4875382989594252658, guid: ce1dfa2c293906d4fb7402b2e13b09a3,
+    - target: {fileID: 5628024503026007386, guid: ce1dfa2c293906d4fb7402b2e13b09a3,
         type: 3}
-      propertyPath: m_Enabled
-      value: 1
+      propertyPath: m_audioClip
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce1dfa2c293906d4fb7402b2e13b09a3, type: 3}
@@ -1833,6 +1838,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386739916047859466, guid: 3dd964fb00858b140b8bc9cef9065336,
+        type: 3}
+      propertyPath: GlobalSounds.Array.data[0].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386739916047859466, guid: 3dd964fb00858b140b8bc9cef9065336,
+        type: 3}
+      propertyPath: GlobalSounds.Array.data[1].pitch
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1633508785188944039, guid: 3dd964fb00858b140b8bc9cef9065336,
         type: 3}
