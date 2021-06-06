@@ -6,19 +6,27 @@ public class FishingState : State
     // AudioManager audioManager;
     // FishManager fishManager;
     public Harbor harbor;
+    public FollowPointer redBoat;
+    public FollowPointer blueBoat;
 
     protected override void Awake()
     {
         base.Awake();
         // TODO ideally count points/fish/trash here 
-        // -> net can tell FishingState to count, FishManager can get infomraiton from State
-        // or better to have a point counting script (score) and connect that with the net?
+        // -> the Net can tell FishingState to count, FishManager can get information from State
+        // -> or better to have a point counting script (score) and connect that with the net?
     }
 
     public override void AfterActivate()
     {
         harbor.OnBoatsInHarbor.AddListener(EndLevel);
-        // activate boat follow player
+
+        // activate boat movement
+        redBoat.GetComponent<FollowPointer>().enabled = true;
+        redBoat.GetComponent<Rigidbody>().isKinematic = false;
+        blueBoat.GetComponent<FollowPointer>().enabled = true;
+        blueBoat.GetComponent<Rigidbody>().isKinematic = false;
+
         // update fish/trash population variables ?
         // spawn fishes ?
 
@@ -30,7 +38,13 @@ public class FishingState : State
     public override void BeforeDeactivate()
     {
         harbor.OnBoatsInHarbor.RemoveListener(EndLevel);
-        // deactivate boat follow player
+
+        // deactivate boat movement
+        redBoat.GetComponent<FollowPointer>().enabled = false;
+        redBoat.GetComponent<Rigidbody>().isKinematic = true;
+        blueBoat.GetComponent<FollowPointer>().enabled = false;
+        blueBoat.GetComponent<Rigidbody>().isKinematic = true;
+
 
         // AUDIO stop boat sounds
         // AUDIO stop game ambient sounds
