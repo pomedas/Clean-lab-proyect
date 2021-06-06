@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class StartmenuState : State
 {
-    // Start Menu Cancas
-    // Buttons to start game
+    // public Canvas startMenuCanvas
+    // public Button startButton
     // AudioManager audioManager;
     public FollowPointer redBoat;
     public FollowPointer blueBoat;
@@ -13,6 +13,7 @@ public class StartmenuState : State
     {
         base.Awake();
         // audioManager = FindObjectOfType<AudioManager>();
+        // startButton.OnSelect.AddListener(StartGame);
     }
 
     public override void AfterActivate()
@@ -32,8 +33,8 @@ public class StartmenuState : State
 
     public override void BeforeDeactivate()
     {
-        // disable start menu canvas
-        // disable start menu buttons
+        // hide/disable start menu canvas
+        // hide/disable start menu buttons
     }
 
     public void StartGame()

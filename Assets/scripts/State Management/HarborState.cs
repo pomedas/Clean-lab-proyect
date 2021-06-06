@@ -4,12 +4,13 @@ using UnityEngine;
 public class HarborState : State
 {
     // Canvas to show the points
-    // Power up menu
+    // PowerUpMenu powerUpMenu;
     // AudioManager audioManager;
 
     protected override void Awake()
     {
         base.Awake();
+        // powerUpMenu.OnSelect.AddListener(StartNextLevel);
     }
 
     public override void AfterActivate()
@@ -24,8 +25,8 @@ public class HarborState : State
 
     public override void BeforeDeactivate()
     {
-        // disable power up buttons
-        // disable canvas
+        // hide/disable power up buttons
+        // hide/disable canvas
 
         // AUDIO stop loung music
         // AUDIO stop harbor ambient sound
