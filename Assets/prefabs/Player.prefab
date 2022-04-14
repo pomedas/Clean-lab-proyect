@@ -90,9 +90,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 746186707522591666}
-  - component: {fileID: 746186707522591667}
   - component: {fileID: 8777444252241381798}
   - component: {fileID: 686605943}
+  - component: {fileID: 1618236373555705056}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player1
@@ -116,27 +116,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &746186707522591667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 746186707522591664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c42e5a96893570f4da7273114a9380f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MarkerID: 0
-  IsPositionMapped: 1
-  InvertX: 1
-  InvertY: 0
-  IsRotationMapped: 0
-  AutoHideGO: 0
-  CameraOffset: 10
-  RotateAround: 1
-  RotationMultiplier: 1
 --- !u!54 &8777444252241381798
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -166,6 +145,24 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1618236373555705056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746186707522591664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2c52623b8500da4db5c8bb8dd37a028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerID: 0
+  playerDetection: {fileID: 0}
+  IsPositionMapped: 1
+  InvertX: 1
+  InvertY: 0
+  CameraOffset: 10
 --- !u!1001 &5349642512159215241
 PrefabInstance:
   m_ObjectHideFlags: 0
