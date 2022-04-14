@@ -492,7 +492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9960f52f70dbf44ba4577fd0f817eb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  live: 0
+  live: 1
   manualSpeed: 0.005
   positions: []
 --- !u!4 &1915285908

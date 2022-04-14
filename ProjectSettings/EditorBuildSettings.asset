@@ -5,12 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 302852358823d7e4da8242f6e8827d75
-  - enabled: 0
-    path: Assets/Scenes/Mattia Test Scene.unity
-    guid: cb7ad9ebb5a8c73469fba7ce595566b2
   - enabled: 1
     path: Assets/Scenes/IntSysTemplate.unity
     guid: 28b01497748dc1a4599c1e6bca09c4a1
