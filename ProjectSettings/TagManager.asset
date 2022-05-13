@@ -21,6 +21,10 @@ TagManager:
   - CoreStarElement
   - Reward
   - objectiveTriangle
+  - Chicken
+  - Fox
+  - Barnyard1
+  - Barnyard2
   layers:
   - Default
   - TransparentFX
