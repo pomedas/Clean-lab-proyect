@@ -21,6 +21,14 @@ TagManager:
   - CoreStarElement
   - Reward
   - objectiveTriangle
+<<<<<<< Updated upstream
+=======
+  - Chicken
+  - Fox
+  - Barnyard1
+  - Barnyard2
+  - GoldenChicken
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
