@@ -5,22 +5,25 @@ using UnityEngine;
 public class Chicken : MonoBehaviour
 {
     public float speed_chicken;
-    
-    // Start is called before the first frame update
-    void Start()
+
+    private float Radius = 10.1f;
+
+    private Vector3 _centre;
+    private float _angle;
+
+    private void Start()
     {
-        gameObject.transform.position = new Vector3(50, 0, 50);
+        _centre = transform.position;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        /*random_next_pos = new Vector3(200f * Time.deltaTime, 0, 0);
-        while ((random_next_pos.x < 0)or(random_next_pos.x > 100)or(random_next_pos.z < 0)or(random_next_pos.z > 100))
+        if ((transform.position.x > 25) && (transform.position.x < 75))
         {
+            _angle += speed_chicken * Time.deltaTime;
 
-        }*/
-        transform.Translate(1.0f * Time.deltaTime, 1.0f * Time.deltaTime, 1.0f * Time.deltaTime);
+            var offset = new Vector3(Mathf.Sin(_angle), 0, Mathf.Cos(_angle)) * Radius;
+            transform.position = _centre + offset;
+        }
     }
-
 }
