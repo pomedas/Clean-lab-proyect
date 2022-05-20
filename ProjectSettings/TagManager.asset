@@ -22,6 +22,10 @@ TagManager:
   - Reward
   - objectiveTriangle
   - Chicken
+  - Fox
+  - Barnyard1
+  - Barnyard2
+  - GoldenChicken
   layers:
   - Default
   - TransparentFX
