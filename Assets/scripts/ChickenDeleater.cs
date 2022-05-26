@@ -5,6 +5,7 @@ using UnityEngine;
 public class ChickenDeleater : MonoBehaviour
 {
     private GameObject[] chickens;
+    private GameObject[] goldenChicken;
     private List<GameObject> chickensInBarnyard1 = new List<GameObject>();
     private List<GameObject> chickensInBarnyard2 = new List<GameObject>();
     private List<GameObject> chickensNotInBarnyard = new List<GameObject>();
@@ -39,6 +40,7 @@ public class ChickenDeleater : MonoBehaviour
         if ((foxInGame)&&(timeLastEaten - 10 > timer.GetComponent<Timer>().timeRemaining))
         {
             chickens = GameObject.FindGameObjectsWithTag("Chicken");
+            goldenChicken = GameObject.FindGameObjectsWithTag("GoldenChicken");
             if (foxInBarnyard1)
             {
                 Debug.Log("Fox in Barnyard1");
@@ -48,6 +50,10 @@ public class ChickenDeleater : MonoBehaviour
                     {
                         chickensInBarnyard1.Add(chickens[i]);
                     }
+                }
+                if (goldenChicken != null)
+                {
+                    chickensInBarnyard1.Add(goldenChicken[0]);
                 }
                 if (chickensInBarnyard1.Count > 0)
                 {
@@ -69,6 +75,10 @@ public class ChickenDeleater : MonoBehaviour
                         chickensInBarnyard2.Add(chickens[i]);
                     }
                 }
+                if (goldenChicken != null)
+                {
+                    chickensInBarnyard1.Add(goldenChicken[0]);
+                }
                 if (chickensInBarnyard2.Count > 0)
                 {
                     int randomChicken = Random.Range(0, chickensInBarnyard2.Count);
@@ -89,6 +99,10 @@ public class ChickenDeleater : MonoBehaviour
                     {
                         chickensNotInBarnyard.Add(chickens[i]);
                     }
+                }
+                if (goldenChicken != null)
+                {
+                    chickensInBarnyard1.Add(goldenChicken[0]);
                 }
                 int randomChicken = Random.Range(0, chickensNotInBarnyard.Count);
                 Destroy(chickensNotInBarnyard[randomChicken]);

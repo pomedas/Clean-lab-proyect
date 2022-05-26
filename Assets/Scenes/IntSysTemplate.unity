@@ -1517,6 +1517,7 @@ MonoBehaviour:
   circle_fox: {fileID: 1635401619}
   circle_battle_fox: {fileID: 1559713894}
   timer: {fileID: 1714849873}
+  FoxEater: {fileID: 2012554094}
 --- !u!4 &1274465884 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6137497491829922048, guid: a2aaaa094093a294aade9f5a5ce62bbb,
