@@ -17,7 +17,7 @@ public class Playermov1 : MonoBehaviour
     private bool chicken_caught;
     private bool fox_caught;
     private bool battling_fox;
-
+    public GameObject FoxEater;
     private float itsBarnyard_min_x;
     private float itsBarnyard_max_x;
     private float itsBarnyard_min_z;
@@ -78,11 +78,14 @@ public class Playermov1 : MonoBehaviour
             Vector3 randomPosition = new Vector3(Random.Range(oponentBarnyard_min_x + 5, oponentBarnyard_max_x - 5), 0.5f, Random.Range(oponentBarnyard_min_z, oponentBarnyard_max_z));
             fox.transform.position = randomPosition;
             fox_caught = false;
+            FoxEater.GetComponent<ChickenDeleater>().foxInBarnyard2 = true;
         }
 
         if ((time_fox_caught- 5> timer.GetComponent<Timer>().timeRemaining) && (battling_fox)){
             circle_battle_fox.SetActive(false);
             battling_fox = false;
+            Destroy(fox);
+            FoxEater.GetComponent<ChickenDeleater>().foxInGame = false;
         }
     }
     private void OnTriggerEnter(Collider other)
