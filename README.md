@@ -9,6 +9,7 @@ If a chicken in your barnyard dies you lose points
 A player can battle the fox to stop it from eating chickens
 Near the end of the game a golden chicken will appear which will grant the player who captures it 3 points
 
+From past delivery:
 Assets:
 For this delivery we created 3 types of assets:
  - The animals of the game with 2 types of animations idle and walk:
@@ -51,12 +52,30 @@ We started adding some basic gamplay features, mainly thouse related to interact
 - We implemented a timer (although it cannot be seen yet on the screen, the log will show a game over message after 4 min)
 - We implemented a point system 
 
-Currently you'll see on the screen that there are already 10 chickens and a fox there. In the final version it won't be like that
-but for now we decided to make sure all the triggers worked. In the next delivery we will implement the following:
-- Chickens will move in a natural manner
-- Implement movement of fox
-- Foxes will appear twice in a game taking into account the time
-- Chickens will 'die' when the fox is in the barnard or in the play area(1 chicken dies every 3 sec)
-- Game Manager implementation (Message saying who won the game and other basic mecanics)
+New things on this delivery:
+- Chickens will move in a natural manner following similar to how electrons move. Chickens will try to:
+	· Avoid fox
+	· Avoid player
+	· Avoid corners (as they would be trapped by a player easily if they went to a corner
+	· Avoid other chickens
+- Implemented movement of fox
+- Foxes will appear twice in a game taking into account the time (every 65 seconds, first fox appears after 1min)
+- Chickens will 'die' when the fox is in the barnard or in the play area(1 random chicken dies every 10 sec)
+- Game Manager implementation:
+	· When there are 4 chickens left on the playarea or 1 min left, one of the chickens turns into a goldenChicken
+	· Message saying who won the game
+- The timer can now be seen as well as the point system.
+- We have added various sound effects:
+	· When chicken dies
+	· When chicken runs
+	· When chicken gets caught or released
+	· When fox gets caught´/released
+	· When you fight the fox
+	· When the fox gets killed
+	· Background music throughout the game
+	· Main menu music
+- We have also implemented a main menu, which for now is a green background like a title screen and there are two dots, a black and a white one.
+  The game starts when the players go to their respective colors (black for red and white for blue) and then the scene will change to the game scene.
+  The main menu also has its own music.
 
 
