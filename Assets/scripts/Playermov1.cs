@@ -91,6 +91,7 @@ public class Playermov1 : MonoBehaviour
             Destroy(fox);
             SoundManager.Instance.PlayFoxKill();
             FoxEater.GetComponent<ChickenDeleater>().foxInGame = false;
+            FoxEater.GetComponent<ChickenDeleater>().foxInBarnyard1 = false;
         }
     }
     private void OnTriggerEnter(Collider other)
