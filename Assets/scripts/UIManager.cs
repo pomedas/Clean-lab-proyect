@@ -31,11 +31,26 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     public void UpdatePointsP1() // 1
     {
-        PointsP1.text = GameStateManager.Instance.pointsP1.ToString();
+        PointsP1.text = PointSystem.Instance.pointsP1.ToString();
     }
     public void UpdatePointsP2() // 1
     {
-        PointsP2.text = GameStateManager.Instance.pointsP2.ToString();
+        PointsP2.text = PointSystem.Instance.pointsP2.ToString();
     }
-
+    public void GameOver()
+    {
+        Debug.Log("GameOver");
+        if (PointSystem.Instance.pointsP1> PointSystem.Instance.pointsP2)
+        {
+            Debug.Log("Player 1 wins!");
+        }
+        else if (PointSystem.Instance.pointsP1 < PointSystem.Instance.pointsP2)
+        {
+            Debug.Log("Player 2 wins!");
+        }
+        else
+        {
+            Debug.Log("It's a draw!");
+        }
+    }
 }

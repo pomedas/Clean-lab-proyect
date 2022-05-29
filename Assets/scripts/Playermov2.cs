@@ -61,10 +61,10 @@ public class Playermov2 : MonoBehaviour
                 chicken.transform.position = randomPosition;
                 chicken_caught = false;
                 if (circle == circle_chicken)
-                    GameStateManager.Instance.Add1PointP2();
+                    PointSystem.Instance.Add1PointP2();
                 if (circle == circle_golden_chicken)
                 {
-                    GameStateManager.Instance.Add3PointP2();
+                    PointSystem.Instance.Add3PointP2();
 
                 }
                 SoundManager.Instance.PlayChickenCaugthRelease();
