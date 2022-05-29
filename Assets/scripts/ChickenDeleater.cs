@@ -59,6 +59,7 @@ public class ChickenDeleater : MonoBehaviour
                 {
                     int randomChicken = Random.Range(0, chickensInBarnyard1.Count);
                     Destroy(chickensInBarnyard1[randomChicken]);
+                    //Instance
                 }
                 else
                 {
@@ -83,6 +84,7 @@ public class ChickenDeleater : MonoBehaviour
                 {
                     int randomChicken = Random.Range(0, chickensInBarnyard2.Count);
                     Destroy(chickensInBarnyard2[randomChicken]);
+                    //Instance
                 }
                 else
                 {
@@ -106,6 +108,7 @@ public class ChickenDeleater : MonoBehaviour
                 }
                 int randomChicken = Random.Range(0, chickensNotInBarnyard.Count);
                 Destroy(chickensNotInBarnyard[randomChicken]);
+                SoundManager.Instance.PlayChickenKilled();
             }
             timeLastEaten = timer.GetComponent<Timer>().timeRemaining;
         }

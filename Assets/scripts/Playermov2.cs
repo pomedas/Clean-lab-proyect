@@ -80,6 +80,7 @@ public class Playermov2 : MonoBehaviour
             Vector3 randomPosition = new Vector3(Random.Range(oponentBarnyard_min_x +5, oponentBarnyard_max_x - 5), 0.5f, Random.Range(oponentBarnyard_min_z+5, oponentBarnyard_max_z-5));
             fox.transform.position = randomPosition;
             fox_caught = false;
+            SoundManager.Instance.PlayFoxCaughtRelease();
             FoxEater.GetComponent<ChickenDeleater>().foxInBarnyard1 = true;
         }
 
@@ -88,6 +89,7 @@ public class Playermov2 : MonoBehaviour
             circle_battle_fox.SetActive(false);
             battling_fox = false;
             Destroy(fox);
+            SoundManager.Instance.PlayFoxKill();
             FoxEater.GetComponent<ChickenDeleater>().foxInGame = false;
         }
     }
@@ -130,6 +132,7 @@ public class Playermov2 : MonoBehaviour
                 circle_battle_fox.SetActive(true);
                 battling_fox = true;
                 time_fox_caught = timer.GetComponent<Timer>().timeRemaining;
+                SoundManager.Instance.PlayFoxFigth();
             }
         }
     }
