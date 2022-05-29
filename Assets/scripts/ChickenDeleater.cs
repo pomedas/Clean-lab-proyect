@@ -72,6 +72,7 @@ public class ChickenDeleater : MonoBehaviour
                         PointSystem.Instance.ErasePointP1();
                     }
                     Destroy(chickensInBarnyard1[randomChicken]);
+                    //Instance
                 }
                 else
                 {
@@ -111,6 +112,7 @@ public class ChickenDeleater : MonoBehaviour
                         PointSystem.Instance.ErasePointP2();
                     }
                     Destroy(chickensInBarnyard2[randomChicken]);
+                    //Instance
                 }
                 else
                 {
@@ -141,11 +143,13 @@ public class ChickenDeleater : MonoBehaviour
                         randomChicken = Random.Range(0, chickensNotInBarnyard.Count);
                     }
                     Destroy(chickensNotInBarnyard[randomChicken]);
+                    SoundManager.Instance.PlayChickenKilled();
                 }
                 else
                 {
                     Debug.Log("No chickens in Playarea");
-                } 
+                }                 
+
             }
             timeLastEaten = timer.GetComponent<Timer>().timeRemaining;
         }
