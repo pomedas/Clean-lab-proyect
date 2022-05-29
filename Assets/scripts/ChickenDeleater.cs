@@ -51,7 +51,7 @@ public class ChickenDeleater : MonoBehaviour
                         chickensInBarnyard1.Add(chickens[i]);
                     }
                 }
-                if (goldenChicken != null)
+                if ((goldenChicken.Length != 0)&&(goldenChicken[0].transform.position.x < Barnyard1_max_x))
                 {
                     chickensInBarnyard1.Add(goldenChicken[0]);
                 }
@@ -75,7 +75,7 @@ public class ChickenDeleater : MonoBehaviour
                         chickensInBarnyard2.Add(chickens[i]);
                     }
                 }
-                if (goldenChicken != null)
+                if ((goldenChicken.Length != 0) && (goldenChicken[0].transform.position.x > Barnyard1_min_x))
                 {
                     chickensInBarnyard1.Add(goldenChicken[0]);
                 }
@@ -90,7 +90,7 @@ public class ChickenDeleater : MonoBehaviour
                 }
 
             }
-            else if(GameObject.FindGameObjectsWithTag("Fox")!=null)
+            else if(GameObject.FindGameObjectsWithTag("Fox").Length!=0)
             {
                 Debug.Log("Fox in area");
                 for (int i = 0; i < chickens.Length; i++)
@@ -100,7 +100,7 @@ public class ChickenDeleater : MonoBehaviour
                         chickensNotInBarnyard.Add(chickens[i]);
                     }
                 }
-                if (goldenChicken != null)
+                if ((goldenChicken.Length != 0) && ((goldenChicken[0].transform.position.x > Barnyard1_max_x) && (goldenChicken[0].transform.position.x < Barnyard2_min_x)))
                 {
                     chickensInBarnyard1.Add(goldenChicken[0]);
                 }

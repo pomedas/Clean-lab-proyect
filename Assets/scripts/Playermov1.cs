@@ -57,7 +57,7 @@ public class Playermov1 : MonoBehaviour
             {
                 chicken.SetActive(true);
                 circle.SetActive(false);
-                Vector3 randomPosition = new Vector3(Random.Range(itsBarnyard_min_x, itsBarnyard_max_x), 0.5f, Random.Range(itsBarnyard_min_z, itsBarnyard_max_z));
+                Vector3 randomPosition = new Vector3(Random.Range(itsBarnyard_min_x+5, itsBarnyard_max_x-5), 0.5f, Random.Range(itsBarnyard_min_z+5, itsBarnyard_max_z-5));
                 chicken.transform.position = randomPosition;
                 chicken_caught = false;
                 if(circle == circle_chicken)
@@ -75,7 +75,7 @@ public class Playermov1 : MonoBehaviour
         {
             fox.SetActive(true);
             circle_fox.SetActive(false);
-            Vector3 randomPosition = new Vector3(Random.Range(oponentBarnyard_min_x + 5, oponentBarnyard_max_x - 5), 0.5f, Random.Range(oponentBarnyard_min_z, oponentBarnyard_max_z));
+            Vector3 randomPosition = new Vector3(Random.Range(oponentBarnyard_min_x + 5, oponentBarnyard_max_x - 5), 0.5f, Random.Range(oponentBarnyard_min_z+5, oponentBarnyard_max_z-5));
             fox.transform.position = randomPosition;
             fox_caught = false;
             FoxEater.GetComponent<ChickenDeleater>().foxInBarnyard2 = true;
