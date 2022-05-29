@@ -42,6 +42,7 @@ public class Chicken : MonoBehaviour
 
     private void Update()
     {
+        chickens = GameObject.FindGameObjectsWithTag("Chicken");
         if (im_free())
         {
             float x = transform.position.x;
