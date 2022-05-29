@@ -72,7 +72,7 @@ public class ChickenDeleater : MonoBehaviour
                         PointSystem.Instance.ErasePointP1();
                     }
                     Destroy(chickensInBarnyard1[randomChicken]);
-                    //Instance
+                    SoundManager.Instance.PlayChickenKilled();
                 }
                 else
                 {
@@ -112,7 +112,7 @@ public class ChickenDeleater : MonoBehaviour
                         PointSystem.Instance.ErasePointP2();
                     }
                     Destroy(chickensInBarnyard2[randomChicken]);
-                    //Instance
+                    SoundManager.Instance.PlayChickenKilled();
                 }
                 else
                 {
