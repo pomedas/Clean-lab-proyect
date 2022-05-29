@@ -67,6 +67,8 @@ public class Playermov2 : MonoBehaviour
                     GameStateManager.Instance.Add3PointP2();
 
                 }
+                SoundManager.Instance.PlayChickenCaugthRelease();
+
             }
 
         }
@@ -108,6 +110,7 @@ public class Playermov2 : MonoBehaviour
                 }
                 circle.SetActive(true);
                 chicken_caught = true;
+                SoundManager.Instance.PlayChickenCaugthRelease();
             }
             if ((other.gameObject.CompareTag("Fox"))&& (chicken_caught == false) && (fox_caught == false))
             {
