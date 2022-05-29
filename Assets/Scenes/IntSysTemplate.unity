@@ -544,7 +544,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359577302}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &360262302
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1424,6 +1424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1052900333}
   - component: {fileID: 1052900334}
+  - component: {fileID: 1052900335}
   m_Layer: 0
   m_Name: GameStateManager
   m_TagString: Untagged
@@ -1459,6 +1460,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsP1: 0
   pointsP2: 0
+--- !u!114 &1052900335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052900332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177097ee0d84262429929f9fda8415c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBeforeFirstFox: 60
+  timeBetweenSpawns: 65
+  foxPrefab: {fileID: 1116140763}
+  goldenChickenPrefab: {fileID: 7657750124210088948, guid: 69a9e3b5aaa228644b52880f9f99da54,
+    type: 3}
+  timer: {fileID: 1714849873}
+  FoxEater: {fileID: 2012554094}
+  Barnyard1: {fileID: 1521580304}
+  Barnyard2: {fileID: 1766669146}
 --- !u!1 &1099553146
 GameObject:
   m_ObjectHideFlags: 0
@@ -1492,6 +1514,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1116140763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5202273939165461862, guid: e878ba004fb771e438b596e6dd17e026,
+    type: 3}
+  m_PrefabInstance: {fileID: 977168027258165729}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1274465880 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6137497491829922050, guid: a2aaaa094093a294aade9f5a5ce62bbb,
