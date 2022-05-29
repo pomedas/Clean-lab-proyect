@@ -19,12 +19,21 @@ public class MenuP1 : MonoBehaviour
         
     }
 
-     void OnTriggerEnter(Collider target)
+    void OnTriggerEnter(Collider target)
     {
         if(target.tag == "Player1")
         {
             is1Inside = true;
             Debug.Log("Player 1 Inside");
+        }
+    }
+
+    void OnTriggerExit(Collider target)
+    {
+        if(target.tag == "Player1")
+        {
+            is1Inside = false;
+            Debug.Log("Player 1 Outside");
         }
     }
 }

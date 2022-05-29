@@ -27,4 +27,13 @@ public class MenuP2 : MonoBehaviour
             Debug.Log("Player 2 Inside");
         }
     }
+
+    void OnTriggerExit(Collider target)
+    {
+        if(target.tag == "Player2")
+        {
+            is2Inside = false;
+            Debug.Log("Player 2 Outside");
+        }
+    }
 }
