@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 15c03359d510eee4fbeac0e94becd8a8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - charlotte
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2233abf15fb23f74db078f5afea51cba, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

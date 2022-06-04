@@ -12,6 +12,10 @@ public class MenuManager : MonoBehaviour
     [SerializeField] public MenuP1 P1;
     [SerializeField] public MenuP2 P2;
     float a;
+    public Animator transition;
+    public AudioSource music;
+    public float waitTime = 1f;
+    public float fadeTime = 1f;
     
     // Start is called before the first frame update
     void Awake()
@@ -23,8 +27,26 @@ public class MenuManager : MonoBehaviour
         P1 = P1.GetComponent<MenuP1>();
         P2 = P2.GetComponent<MenuP2>();
         if (P1.is1Inside == true && P2.is2Inside == true){
-            SceneManager.LoadScene("IntSysTemplate");
+            StartCoroutine(LoadLevel("IntSysTemplate", music));
         }
+    }
+
+    IEnumerator LoadLevel(string level, AudioSource audioSource){
+
+        transition.SetTrigger("Start");
+
+        float startVolume = audioSource.volume;
+ 
+        while (audioSource.volume > 0) {
+            audioSource.volume -= startVolume * Time.deltaTime / fadeTime;
+ 
+            yield return null;
+        }
+
+        yield return new WaitForSeconds(waitTime);
+
+        SceneManager.LoadScene(level);
+
     }
 
 }
